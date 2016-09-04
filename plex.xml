@@ -24,7 +24,7 @@ Do not install - test template only
   <Registry>https://hub.docker.com/r/linuxserver/plex/</Registry>
   <Repository>linuxserver/plex</Repository>
   <Branch>
-    <Tag>Jarvis</tag>
+    <Tag>Jarvis</Tag>
     <Description>This is the jarvis branch</Description>
   </Branch>
   <BindTime>true</BindTime>

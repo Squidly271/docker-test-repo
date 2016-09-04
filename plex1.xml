@@ -24,11 +24,11 @@ Do not install.  Test template only!
   <Registry>https://hub.docker.com/r/linuxserver/plex/</Registry>
   <Repository>linuxserver/plex</Repository>
   <Branch>
-    <Tag>Jarvis</tag>
+    <Tag>Jarvis</Tag>
     <Description>This is the jarvis branch</Description>
   </Branch>
   <Branch>
-    <Tag>Blah</tag>
+    <Tag>Blah</Tag>
     <Description>This is the blah branch</Description>
   </Branch>
   <BindTime>true</BindTime>
