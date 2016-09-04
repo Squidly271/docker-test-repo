@@ -22,7 +22,7 @@ Do not install - test template only
   </Description>
   <Project>https://plex.tv/</Project>
   <Registry>https://hub.docker.com/r/linuxserver/plex/</Registry>
-  <Repository>linuxserver/plex</Repository>
+  <Repository>squid/plex</Repository>
   <Branch>
     <Tag>Jarvis</Tag>
     <Description>This is the jarvis branch</Description>
