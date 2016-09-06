@@ -26,6 +26,20 @@ Do not install - test template only
   <Branch>
     <Tag>Jarvis</Tag>
     <Description>This is the jarvis branch</Description>
+    <Environment>
+    <Variable>
+      <Name>whateverPUID</Name>
+      <Value>990</Value>
+    </Variable>
+    <Variable>
+      <Name>whateverPGID</Name>
+      <Value>1000</Value>
+    </Variable>
+    <Variable>
+      <Name>whateverVERSION</Name>
+      <Value>whateverlatest</Value>
+    </Variable>
+  </Environment>
   </Branch>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
