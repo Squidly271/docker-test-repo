@@ -25,11 +25,11 @@ Do not install.  Test template only!
   <Repository>squid/plex:nemesis</Repository>
   <Branch>
     <Tag>Jarvis</Tag>
-    <Description>This is the jarvis branch</Description>
+    <TagDescription>This is the jarvis branch</TagDescription>
   </Branch>
   <Branch>
     <Tag>Blah</Tag>
-    <Description>This is the blah branch</Description>
+    <TagDescription>This is the blah branch</TagDescription>
   </Branch>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
