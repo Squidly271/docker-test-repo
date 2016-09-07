@@ -18,7 +18,7 @@
   <Name>Demo-BasicBranch</Name>
   <Support>http://lime-technology.com/forum/index.php?topic=42148.0</Support>
   <Description>
-Do not install.  Test template only!
+Do not install.  Demo template only.  This template demonstrates basic branching abilities of CA.  Only the tag on the repository changes under each branch
   </Description>
   <Project>https://plex.tv/</Project>
   <Registry>https://hub.docker.com/r/linuxserver/plex/</Registry>

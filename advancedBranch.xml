@@ -18,7 +18,7 @@
   <Name>DemoAdvancedBranch</Name>
   <Support>http://lime-technology.com/forum/index.php?topic=42148.0</Support>
   <Description>
-Do not install - test template only
+Do not install - demo template only.  This template demonstrates advanced branch abilities of CA (when selecting a branch, notice that the environment variables will change)
   </Description>
   <Project>https://plex.tv/</Project>
   <Registry>https://hub.docker.com/r/linuxserver/plex/</Registry>
