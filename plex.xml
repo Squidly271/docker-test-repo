@@ -26,20 +26,10 @@ Do not install - test template only
   <Branch>
     <Tag>Jarvis</Tag>
     <TagDescription>This is the jarvis branch</TagDescription>
-    <Environment>
-    <Variable>
-      <Name>whateverPUID</Name>
-      <Value>990</Value>
-    </Variable>
-    <Variable>
-      <Name>whateverPGID</Name>
-      <Value>1000</Value>
-    </Variable>
-    <Variable>
-      <Name>whateverVERSION</Name>
-      <Value>whateverlatest</Value>
-    </Variable>
-  </Environment>
+    <Config Name="Key 1" Target="whateverPUID" Default="9901" Mode="" Description="Container Variable: whateverPUID1" Type="Variable" Display="always" Required="false" Mask="false">990</Config>
+    <Config Name="Key 2" Target="whateverPGID" Default="10001" Mode="" Description="Container Variable: whateverPGID1" Type="Variable" Display="always" Required="false" Mask="false">1000</Config>
+    <Config Name="Key 3" Target="whateverVERSION" Default="whateverlatest1" Mode="" Description="Container Variable: whateverVERSION1" Type="Variable" Display="always" Required="false" Mask="false">whateverlatest</Config>
+    <Config Name="AppData Config Path" Target="/config" Default="/mnt/cache/appdata/TestContainer1" Mode="rw" Description="Container Path: /config" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/cache/appdata/TestContainer1</Config>
   </Branch>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
