@@ -15,7 +15,7 @@
   [b]09.07.2015:[/b] Now with ability to pick static versionnumber.
   [b]08.07.2015:[/b] Now with autoupdates. (Hosted by fanart.tv)
   [b]03.07.2015:[/b] Fixed a mistake that allowed plex to run as user plex rather than abc (99:100). Thanks to double16 for spotting this.</Changes>
-  <Name>TestContainer1</Name>
+  <Name>DemoAdvancedBranch</Name>
   <Support>http://lime-technology.com/forum/index.php?topic=42148.0</Support>
   <Description>
 Do not install - test template only
@@ -26,25 +26,19 @@ Do not install - test template only
   <Branch>
     <Tag>Jarvis</Tag>
     <TagDescription>This is the jarvis branch</TagDescription>
-    <Config Name="Key 1" Target="whateverPUID" Default="9901" Mode="" Description="Container Variable: whateverPUID1" Type="Variable" Display="always" Required="false" Mask="false">990</Config>
-    <Config Name="Key 2" Target="whateverPGID" Default="10001" Mode="" Description="Container Variable: whateverPGID1" Type="Variable" Display="always" Required="false" Mask="false">1000</Config>
-    <Config Name="Key 3" Target="whateverVERSION" Default="whateverlatest1" Mode="" Description="Container Variable: whateverVERSION1" Type="Variable" Display="always" Required="false" Mask="false">whateverlatest</Config>
-    <Config Name="AppData Config Path" Target="/config" Default="/mnt/cache/appdata/TestContainer1" Mode="rw" Description="Container Path: /config" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/cache/appdata/TestContainer1</Config>
+    <Environment>
+      <Variable>
+        <Name>JarvisEnv</Name>
+        <Value>99</Value>
+      </Variable>
+    </Environment>
   </Branch>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>
     <Variable>
-      <Name>PUID</Name>
+      <Name>DefaultEnv</Name>
       <Value>99</Value>
-    </Variable>
-    <Variable>
-      <Name>PGID</Name>
-      <Value>100</Value>
-    </Variable>
-    <Variable>
-      <Name>VERSION</Name>
-      <Value>latest</Value>
     </Variable>
   </Environment>
   <Networking>
