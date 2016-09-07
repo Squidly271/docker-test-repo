@@ -15,17 +15,18 @@
   [b]09.07.2015:[/b] Now with ability to pick static versionnumber.
   [b]08.07.2015:[/b] Now with autoupdates. (Hosted by fanart.tv)
   [b]03.07.2015:[/b] Fixed a mistake that allowed plex to run as user plex rather than abc (99:100). Thanks to double16 for spotting this.</Changes>
-  <Name>Demo AdvancedBranch</Name>
+  <Name>Demo Advanced Branch2</Name>
   <Support>http://lime-technology.com/forum/index.php?topic=42148.0</Support>
   <Description>
-Do not install - demo template only.  This template demonstrates advanced branch abilities of CA (when selecting a branch, notice that the environment variables will change)
+Do not install - demo template only.  This template demonstrates advanced branch abilities of CA (when selecting the branch, the Repository tag stays the same, only the env variable changes)
   </Description>
   <Project>https://plex.tv/</Project>
   <Registry>https://hub.docker.com/r/linuxserver/plex/</Registry>
   <Repository>squid/plex</Repository>
   <Branch>
-    <Tag>Jarvis</Tag>
-    <TagDescription>This is the jarvis branch</TagDescription>
+    <Tag>AltEnv</Tag>
+    <TagDescription>Only the Environment changes</TagDescription>
+    <Repository>squid/plex</Repository>
     <Environment>
       <Variable>
         <Name>JarvisEnv</Name>
