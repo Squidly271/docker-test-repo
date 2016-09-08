@@ -2,19 +2,7 @@
 <Container>
   <Beta>True</Beta>
   <Date>2016-08-27</Date>
-  <Changes>
-    [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
- 
-[center][font size=4]Plex Media Server Change Log[/font][/center]
-  
-  [b]27.08.2016:[/b] Rebase to ubuntu xenial with S6 overlay.
-  [b]17.09.2015:[/b] Changed to run chmod only once
-  [b]16.09.2015:[/b] Now downloads from https rather than http (To comply with changes by plex.tv)
-  [b]28.08.2015:[/b] Now uses VERSION only rather than VERSION+PLEXPASS, Failure detection on updateing plex, aswell as faster baseimage.
-  [b]12.08.2015:[/b] Updated Support Thread.
-  [b]09.07.2015:[/b] Now with ability to pick static versionnumber.
-  [b]08.07.2015:[/b] Now with autoupdates. (Hosted by fanart.tv)
-  [b]03.07.2015:[/b] Fixed a mistake that allowed plex to run as user plex rather than abc (99:100). Thanks to double16 for spotting this.</Changes>
+  <Changes></Changes>
   <Name>Demo BasicBranch</Name>
   <Support>http://lime-technology.com/forum/index.php?topic=42148.0</Support>
   <Description>
