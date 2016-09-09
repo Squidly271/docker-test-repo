@@ -13,6 +13,15 @@ Do not install.  Demo template only.  This template demonstrates basic branching
   <Branch>
     <Tag>Jarvis</Tag>
     <TagDescription>This is the jarvis branch</TagDescription>
+    <Environment>
+      <Variable>
+        <Value>9999</Value>
+        <Name>JarvisEnv</Name>
+        <Mode/>
+      </Variable>
+    </Environment>
+    <Config Name="Key 1" Target="JarvisEnv" Default="9999" Mode="" Description="Container Variable: JarvisEnv" Type="Variable" Display="always" Required="false" Mask="false">9999</Config>
+    <Config Name="AppData Config Path" Target="/config" Default="/mnt/cache/appdata/DemoAdvancedBranch2" Mode="rw" Description="Container Path: /config" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/cache/appdata/DemoAdvancedBranch2</Config>
   </Branch>
   <Branch>
     <Tag>Blah</Tag>
