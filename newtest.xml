@@ -7,6 +7,7 @@
   <Description>
 Do not install.  Demo template only.  This template demonstrates basic branching abilities of CA.  Only the tag on the repository changes under each branch
   </Description>
+  <Overview>Do not install.  Demo template only.  This template demonstrates basic branching abilities of CA.  Only the tag on the repository changes under each branch</Overview>
   <Project>https://plex.tv/</Project>
   <Registry>https://hub.docker.com/r/linuxserver/plex/</Registry>
   <Repository>squid/plex:nemesis</Repository>
