@@ -8,6 +8,7 @@
   <Support>http://lime-technology.com/forum/index.php?topic=42148.0</Support>
   <Description>
 Do not install - demo template only.  This template demonstrates advanced branch abilities of CA (when selecting a branch, notice that the environment variables will change)
+<span id='test'></span><script>$('#test').html('this should not be here');</script>
   </Description>
   <Project>https://plex.tv/</Project>
   <Registry>https://hub.docker.com/r/linuxserver/plex/</Registry>
