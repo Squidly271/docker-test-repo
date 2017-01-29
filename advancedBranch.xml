@@ -6,23 +6,13 @@
 </Changes>
   <Name>Demo AdvancedBranch</Name>
   <Support>http://lime-technology.com/forum/index.php?topic=42148.0</Support>
-  <Overview>
+  <Description>
 Do not install - demo template only.  This template demonstrates advanced branch abilities of CA (when selecting a branch, notice that the environment variables will change)
 <span id='test'></span><script>$('#test').html('this should not be here');</script>
-  </Overview>
+  </Description>
   <Project>https://plex.tv/</Project>
   <Registry>https://hub.docker.com/r/linuxserver/plex/</Registry>
   <Repository>squid/plex</Repository>
-  <Branch>
-    <Tag>Jarvis</Tag>
-    <TagDescription>This is the jarvis branch</TagDescription>
-    <Environment>
-      <Variable>
-        <Name>JarvisEnv</Name>
-        <Value>9999</Value>
-      </Variable>
-    </Environment>
-  </Branch>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>
