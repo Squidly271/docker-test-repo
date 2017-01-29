@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>DemoAdvancedBranch</Name>
+  <Name>scripttest</Name>
   <Repository>squid/plex:Jarvis</Repository>
   <Registry>https://hub.docker.com/r/linuxserver/plex/</Registry>
   <Network>host</Network>
