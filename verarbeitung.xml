@@ -20,7 +20,7 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/cache/appdata/verarbeitung</HostDir>
+      <HostDir>/mnt/cache/appdata/verarbeitung1</HostDir>
       <ContainerDir>/log</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
